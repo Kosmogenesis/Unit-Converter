@@ -1,6 +1,9 @@
 
 import java.util.Scanner;
 
+
+
+
 public class Converter {
 
 	public static void main(String[] args) {
@@ -38,10 +41,15 @@ public class Converter {
 			conversion2 = value * 4.448f;
 			if (value == 1) {
 				System.out.println(value + " pound is equivalent to " + conversion + " kilograms and " + conversion2 + " newtons. " + nL);
+				enterNum.nextLine();
 			}
 			else {
 				System.out.println(value + " pounds is equivalent to " + Math.round(conversion)  + " kilograms and " + Math.round(conversion2) + " newtons." + nL);
+				enterNum.nextLine();
+				
 			}
+			System.out.println("Press Enter for another calculation");
+			enterNum.nextLine();
 			break;
 		
 			
@@ -51,10 +59,14 @@ public class Converter {
 			conversion = value * 1.6605E-27f;
 			if (value == 1) {
 				System.out.println(value + " atomic mass unit is equivalent to " + conversion + " kilograms." + nL);
+				enterNum.nextLine();
 			}
 			else {
 				System.out.println(value + " atomic mass units is equivalent to " + conversion + " kilograms." + nL);
+				enterNum.nextLine();
 			}
+			System.out.println("Press Enter for another calculation");
+			enterNum.nextLine();
 			break;
 		
 		case 3:
@@ -64,10 +76,14 @@ public class Converter {
 			conversion2 = value * 63241.1f;
 			if (value == 1) {
 				System.out.println(value + " light year is equivalent to " + conversion + " parsecs and " + conversion2 + " astronomical units." + nL);
+				enterNum.nextLine();
 			}
 			else {
 				System.out.println(value + " light years is equivalent to " + Math.round(conversion) + " parsecs and " + Math.round(conversion2) + " astronomical units." +  nL);
+				enterNum.nextLine();
 			}
+			System.out.println("Press Enter for another calculation");
+			enterNum.nextLine();
 			break;
 		
 		case 4:
@@ -77,10 +93,14 @@ public class Converter {
 			conversion2 = value * 0.0003048f;
 			if (value == 1) {
 				System.out.println(value + " foot is equivalent to " + conversion + " meters and " + conversion2 + " kilometers." + nL);
+				enterNum.nextLine();
 			}
 			else {
 				System.out.println(value + " feet is equivalent to " + conversion + " meters and " + conversion2 + " kilometers." + nL);
+				enterNum.nextLine();
 			}
+			System.out.println("Press Enter for another calculation");
+			enterNum.nextLine();
 			break;
 				
 			
